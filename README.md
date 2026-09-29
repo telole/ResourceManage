@@ -14,8 +14,3 @@ flutter run
 - `lib/data/mock_data.dart` — data contoh: 1 group "Purple Squad" isi 6 member, tournament aktif "Cookie Wars"
 - `lib/providers/app_provider.dart` — state management (Provider), hitung total poin & persentase kontribusi otomatis dari formula poin per resource
 - `lib/screens/` — 4 layar: Home, Group, Input Resource, Leaderboard
-
-## Langkah selanjutnya (belum dikerjakan di starter ini)
-- Ganti mock data di `app_provider.dart` dengan Firebase Firestore (auth, group code join, sync real-time antar member)
-- Layar buat/join Group pakai kode
-- Layar admin untuk setting formula poin tiap tournament baru
